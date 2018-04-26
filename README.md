@@ -1,16 +1,18 @@
-## A full blown Hapi.js Starter Template
-#### This template comes with ES6 Support (Babel), Websocket, Mongo & Redis boilerplate.
+## A Simple Hapi.js Starter Template
+#### This template comes with ES6 Support (Babel), & Websocket
 
 ### Development Usage
 
+Prerequisite: 
+    1. Run `$ npm install -g npx`
+
 1. Clone the repository and run 
 
-    `$ npm install`
+    `$ yarn`
 
-2. Run Redis and Mongo together using dock-compose tool
+2. Start Server
 
-    `$ docker-compose up -d`
+    `$ yarn run watch`
 
-4. Double check configuration settings at `config/default.json`
+*Note: Double check configuration settings at `config/default.json`*
 
-5. Finally run `$ npm run watch` and Tada You've got youeself a server running on **8080** (you can change this to whatever port you want)

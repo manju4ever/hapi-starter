@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "$(npm bin)/babel src/ -d dist/",
-    "watch": "$(npm bin)/nodemon -w src/ src/bootstrap.js",
+    "build": "npx babel src/ -d dist/",
+    "watch": "npx nodemon -w src/ src/bootstrap.js",
     "deploy:pm2": "pm2 -i 2 start dist/index.js"
   },
   "repository": {
