@@ -29,9 +29,11 @@
     "joi": "^13.1.2",
     "mongodb": "^3.0.4",
     "nes": "^7.0.3",
+    "pdfmake": "^0.1.37",
     "redis": "^2.8.0",
     "vision": "^5.3.1",
-    "ws": "^5.0.0"
+    "ws": "^5.0.0",
+    "gencert": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
